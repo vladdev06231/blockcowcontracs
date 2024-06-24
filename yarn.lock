@@ -960,6 +960,13 @@
     web3-core "^1.8.1"
     web3-utils "^1.8.1"
 
+"@safe-global/safe-core-sdk-types@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@safe-global/safe-core-sdk-types/-/safe-core-sdk-types-5.0.2.tgz#9552f5793581333c81676986b3eb19697e1c6627"
+  integrity sha512-UK2WL9nXN/8ez4Upx1D0KhtNXwkEjuV5O2XDem4Jchw5IBCLJnLowUBgEq8Tw4xdB7x2rw72VFAJXYZ/iY4qYw==
+  dependencies:
+    abitype "^1.0.2"
+
 "@safe-global/safe-deployments@^1.26.0":
   version "1.26.0"
   resolved "https://registry.yarnpkg.com/@safe-global/safe-deployments/-/safe-deployments-1.26.0.tgz#b83615b3b5a66e736e08f8ecf2801ed988e9e007"
@@ -1578,6 +1585,11 @@ abbrev@1.0.x:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.0.9.tgz#91b4792588a7738c25f35dd6f63752a2f8776135"
   integrity sha1-kbR5JYinc4wl813W9jdSovh3YTU=
+
+abitype@^1.0.2:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/abitype/-/abitype-1.0.4.tgz#a817ff44860e8a84e9a37ed22aa9b738dbb51dba"
+  integrity sha512-UivtYZOGJGE8rsrM/N5vdRkUpqEZVmuTumfTuolm7m/6O09wprd958rx8kUBwVAAAhQDveGAgD0GJdBuR8s6tw==
 
 abort-controller@^3.0.0:
   version "3.0.0"
@@ -10857,7 +10869,7 @@ web3-shh@1.2.11:
     web3-core-subscriptions "1.2.11"
     web3-net "1.2.11"
 
-web3-utils@1.10.0, web3-utils@^1.8.1:
+web3-utils@1.10.0, web3-utils@^1.0.0-beta.31, web3-utils@^1.3.6, web3-utils@^1.8.1:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/web3-utils/-/web3-utils-1.10.0.tgz#ca4c1b431a765c14ac7f773e92e0fd9377ccf578"
   integrity sha512-kSaCM0uMcZTNUSmn5vMEhlo02RObGNRRCkdX0V9UTAU0+lrvn0HSaudyCo6CQzuXUsnuY2ERJGCGPfeWmv19Rg==
@@ -10882,19 +10894,6 @@ web3-utils@1.2.11:
     number-to-bn "1.7.0"
     randombytes "^2.1.0"
     underscore "1.9.1"
-    utf8 "3.0.0"
-
-web3-utils@^1.0.0-beta.31, web3-utils@^1.3.6:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/web3-utils/-/web3-utils-1.9.0.tgz#7c5775a47586cefb4ad488831be8f6627be9283d"
-  integrity sha512-p++69rCNNfu2jM9n5+VD/g26l+qkEOQ1m6cfRQCbH8ZRrtquTmrirJMgTmyOoax5a5XRYOuws14aypCOs51pdQ==
-  dependencies:
-    bn.js "^5.2.1"
-    ethereum-bloom-filters "^1.0.6"
-    ethereumjs-util "^7.1.0"
-    ethjs-unit "0.1.6"
-    number-to-bn "1.7.0"
-    randombytes "^2.1.0"
     utf8 "3.0.0"
 
 web3@1.2.11:
